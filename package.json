@@ -1,0 +1,11 @@
+{
+  "name": "lambda_test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "docker-compose -f docker-compose-myenv.yml up -d",
+    "show": "docker logs lambda",
+    "rm"  : "docker rm lambda"
+  }
+}
