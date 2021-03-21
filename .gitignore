@@ -1,6 +1,3 @@
-# Local Settings
-docker-compose-myenv.yml
-
 # Logs
 logs
 *.log

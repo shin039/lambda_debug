@@ -9,9 +9,9 @@ services:
       - .:/var/task
     # 任意のパスワード
     environment:
-      AWS_ACCESS_KEY_ID: <Set Your Access Key ID>
-      AWS_SECRET_ACCESS_KEY: <Set Your Secret Access Key>
-      AWS_REGION: <Set Your AWS Region>
+      AWS_ACCESS_KEY_ID    : ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_REGION           : ${AWS_REGION}
     command:
       - index.handler 
       - '{"runtime": "nodejs12.x"}'

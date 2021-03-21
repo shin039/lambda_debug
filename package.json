@@ -4,7 +4,7 @@
   "private": true,
   "description": "",
   "scripts": {
-    "test": "docker-compose -f docker-compose-myenv.yml up -d",
+    "test": "docker-compose up -d",
     "show": "docker logs lambda",
     "rm"  : "docker rm lambda"
   }
